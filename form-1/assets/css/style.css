@@ -15,8 +15,8 @@ html{
 }
 
 #relampago{
-max-width: 300px;
-margin-bottom: 150px;
+max-width: 200px;
+margin-bottom: 140px;
 
 
   }
@@ -43,13 +43,14 @@ background-color: black;
 	background-color: #AA4F1D !important;
 }
 body {
+	zoom: 1.1;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #888;
     line-height: 30px;
     text-align: center;
-	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/Pablo2.png?raw=true');
+	background-image: url('/img/Pablo3.png');
 
 
 	
