@@ -42,7 +42,7 @@
 		</script>
 
 		<!-- Top menu -->
-		<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+		<!-- <nav class="navbar navbar-inverse navbar-no-bg" role="navigation"> -->
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
@@ -88,7 +88,7 @@
                             	<p>
 
 								
-
+				
 		
                             	</p>
                             </div>

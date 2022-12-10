@@ -50,7 +50,7 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
-	background-image: url('/img/Pablo3.png');
+	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/Pablo3.png?raw=true');
 
 
 	
@@ -255,6 +255,19 @@ ul.navbar-nav {
 
 }
 
+@media (max-width: 557px) {
+body{
+	margin-top: 400px;
+}
+
+#sign{
+	background-image: url('../img/backgrounds/logo-black-friday.png');
+	background-size: 200px;
+	width: 200px;
+	height: 100px;
+}
+
+}
 @media (max-width: 415px) {
 	
 	h1, h2 { font-size: 32px; }
