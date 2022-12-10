@@ -106,7 +106,7 @@
                         		</div>
                             </div>
                             <div class="form-bottom"  id="black">
-			                  <form method="POST" action="sql/registrar.php"> >
+			                  <form method="POST" action="registrar.php"> 
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="form-first-name">First name</label>
 			                        	<input type="text" name="var_nm1" placeholder="Primeiro nome" class="form-first-name form-control" id="form-first-name">

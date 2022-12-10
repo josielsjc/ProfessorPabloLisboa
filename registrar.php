@@ -36,11 +36,11 @@
     if(!$valida_cadastro_aluno){
         //CRIANDO SESSAO MENSAGEM
         $_SESSION['msg_execucao'] = 'Erro no cadastro do convênio.';        
-        header('Location: ../index.php');
+        header('Location: index.php');
     }else{
         //CRIANDO SESSAO MENSAGEM
         $_SESSION['msg_execucao'] = 'Convênio cadastrado com sucesso!';   
-        header('Location: ../index.php');
+        header('Location: index.php');
     }
 
 
