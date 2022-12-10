@@ -7,8 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
 
+<?php
+		//CHAMANDO ARQUIVO CONEXAO
+    include 'sql/conexao.php';
 
-
+?>
 <meta name="viewport" content="width=device-width, initial-scale=1.1">
         <title>Professor Pablo Lisboa</title>
 
@@ -107,18 +110,18 @@
                         		</div>
                             </div>
                             <div class="form-bottom"  id="black">
-			                    <form role="form" action="" method="post" class="registration-form">
+			                  <form method="POST" action="sql/registrar.php"> >
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="form-first-name">First name</label>
-			                        	<input type="text" name="form-first-name" placeholder="Primeiro nome" class="form-first-name form-control" id="form-first-name">
+			                        	<input type="text" name="var_nm1" placeholder="Primeiro nome" class="form-first-name form-control" id="form-first-name">
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-last-name">Last name</label>
-			                        	<input type="text" name="form-last-name" placeholder="Ultimo nome" class="form-last-name form-control" id="form-last-name">
+			                        	<input type="text" name="var_nm2" placeholder="Ultimo nome" class="form-last-name form-control" id="form-last-name">
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-email">Email</label>
-			                        	<input type="text" name="form-email" placeholder="Endereço de e-mail" class="form-email form-control" id="form-email">
+			                        	<input type="text" name="var_email" placeholder="Endereço de e-mail" class="form-email form-control" id="form-email">
 			                        </div>
 			                        <!-- <div class="form-group">
 			                        	<label class="sr-only" for="form-about-yourself">About yourself</label>
