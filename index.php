@@ -126,7 +126,7 @@
 									
 			                    </form>
 								
-								<div class="promocao"><img src="/img/PROMO.png" alt="" srcset=""></div>
+								<div class="promocao"><img src="https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/PROMO.png?raw=true" alt="" srcset=""></div>
 		                    </div>
                         </div>
                     </div>
