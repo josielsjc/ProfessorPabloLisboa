@@ -7,11 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
 
-<?php
-		//CHAMANDO ARQUIVO CONEXAO
-    include 'sql/conexao.php';
 
-?>
 <meta name="viewport" content="width=device-width, initial-scale=1.1">
         <title>Professor Pablo Lisboa</title>
 
