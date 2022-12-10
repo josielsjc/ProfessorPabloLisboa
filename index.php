@@ -96,7 +96,7 @@
                       
                             </div>
                         </div>
-                        <div  class="col-xs-6 col-sm-10 col-md-3 col-lg-4 form-box" >
+                        <div  class="col-xs-6 col-sm-10 col-md-3 col-lg-5 form-box" >
                         	<div class="form-top " id="sign" >
                         		<div class="form-top-left">
                         			<h3></h3>
