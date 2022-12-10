@@ -268,13 +268,30 @@ body{
 }
 
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
 	
 	h1, h2 { font-size: 32px; }
 
+
+
+*{
+	overflow-y:0;
+
+	overflow-x:0;
 }
 
+.registration-form{
+	margin-top:  -100px;
+}
 
+body{	margin-top: 100px;
+	background-image: url('../img/backgrounds/black_friday.jpg');
+}
+#sign{	
+	
+display: none;
+}
+}
 /* Retina-ize images/icons */
 
 @media
