@@ -27,7 +27,7 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="form-1/assets/ico/favicon.png">
+        <!-- <link rel="shortcut icon" href="form-1/assets/ico/favicon.png"> -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -51,7 +51,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Bootstrap Registration Form Template</a>
+					<!-- <a class="navbar-brand" href="index.html">Bootstrap Registration Form Template</a> -->
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
@@ -96,7 +96,7 @@
                       
                             </div>
                         </div>
-                        <div  class="col-sm-5 form-box" >
+                        <div  class="col-xs-12 col-sm-12 col-md-3 col-lg-6 form-box" >
                         	<div class="form-top " id="sign" >
                         		<div class="form-top-left">
                         			<h3></h3>
