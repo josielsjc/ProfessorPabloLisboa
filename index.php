@@ -59,7 +59,7 @@
 							<span class="li-text">
 								
 							</span> 
-							<a href="#"><strong><img src="https://www.kabum.com.br/hotsite/relampago/img/logo.png" id="relampago"alt="" srcset=""></strong></a> 
+							<img src="https://www.kabum.com.br/hotsite/relampago/img/logo.png" id="relampago"alt="" srcset="">
 							<span class="li-text">
 							
 							</span> 
