@@ -14,19 +14,19 @@ html{
 
 }
 
-/* #relampago{
+#relampago{
 max-width: 200px;
 margin-bottom: 140px;
 
 
-  } */
+  }
 .form-box{
 	
 }
   #sign{
-display: hidden;
+	margin-top: -1800px;
+	/* background-image: url('../img/backgrounds/logo-black-friday.png'); */
 display: none;
-
 }
 
 
@@ -236,29 +236,40 @@ ul.navbar-nav {
 
 /***** Media queries *****/
 
+@media (min-width: 992px) and (max-width: 1199px) {}
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {}
 
-	body{	margin-left: 200px;
-max-width: 10px;
-		background-image: url('/img/panloka000mobile.png');
-		background-repeat: no-repeat;
-	}
+@media (max-width: 767px) {
+	
+	.navbar { padding-top: 0; }
+	.navbar.navbar-no-bg { background: #333; background: rgba(51, 51, 51, 0.9); }
+	.navbar-brand { height: 60px; margin-left: 15px; }
+	.navbar-collapse { border: 0; }
+	.navbar-toggle { margin-top: 12px; }
+	
+	.inner-bg { padding: 60px 0 110px 0; }
+	.top-content .text { padding-top: 0; padding-bottom: 60px; }
+	.top-content .top-big-link { margin-top: 25px; }
+	.top-content .top-big-link a.btn { margin-top: 10px; }
 
-	#black{
-margin-top:200px;
-background-color: none;
-opacity: 100%;
-	}
 }
 
+@media (max-width: 557px) {
+body{
+	margin-top: 400px;
+}
 
+#sign{
+	background-image: url('../img/backgrounds/logo-black-friday.png');
+	background-size: 200px;
+	width: 200px;
+	height: 100px;
+}
+
+}
 @media (max-width: 480px) {
-	body{	margin-left: 200px;
-		max-width: 10px;
-				background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/panloka00mobile.png?raw=true');
-				background-repeat: no-repeat;
-			}
+	
 	h1, h2 { font-size: 32px; }
 
 
@@ -273,26 +284,13 @@ opacity: 100%;
 	margin-top:  -100px;
 }
 
-
+body{	margin-top: 100px;
+	background-image: url('/img/pabloka2.png');
+}
 #sign{	
 	
 display: none;
 }
-
-body{	margin-left: 200px;
-
-	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/panloka00mobile.png?raw=true');
-	background-repeat: no-repeat;
-
-
-}
-
-#black{
-margin-top:200px;
-background-color: none;
-opacity: 100%;
-}
-
 }
 /* Retina-ize images/icons */
 
