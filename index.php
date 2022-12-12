@@ -58,11 +58,11 @@
 						<li>
 							<span class="li-text">
 								
-							</span> 
+							<!-- </span> 
 							<img src="https://www.kabum.com.br/hotsite/relampago/img/logo.png" id="relampago"alt="" srcset="">
 							<span class="li-text">
 							
-							</span> 
+							</span>  -->
 							<span class="li-social">
 								<a href="#"><i class="fa fa-facebook"></i></a> 
 								<a href="#"><i class="fa fa-twitter"></i></a> 
@@ -115,6 +115,11 @@
 			                        	<label class="sr-only" for="form-last-name">Last name</label>
 			                        	<input type="text" name="var_nm2" placeholder="Ultimo nome" class="form-last-name form-control" id="form-last-name">
 			                        </div>
+
+									<div class="form-group">
+			                        	<label class="sr-only" for="form-last-name">Whatsapp </label>
+			                        	<input type="text" name="var_nm2" placeholder="Whatsapp (Opcional)" class="form-last-name form-control" id="form-last-name">
+			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-email">Email</label>
 			                        	<input type="text" name="var_email" placeholder="Endereço de e-mail" class="form-email form-control" id="form-email">
@@ -129,7 +134,7 @@
 									
 			                    </form>
 								
-								<div class="promocao"><img src="https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/PROMO.png?raw=true" alt="" srcset=""></div>
+								<!-- <div class="promocao"><img src="https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/PROMO.png?raw=true" alt="" srcset=""></div> -->
 		                    </div>
                         </div>
                     </div>

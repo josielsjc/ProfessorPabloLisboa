@@ -14,18 +14,18 @@ html{
 
 }
 
-#relampago{
+/* #relampago{
 max-width: 200px;
 margin-bottom: 140px;
 
 
-  }
+  } */
 .form-box{
 	
 }
   #sign{
-	margin-top: -270px;
-	background-image: url('../img/backgrounds/logo-black-friday.png');
+	margin-top: 10%;
+	/* background-image: url('../img/backgrounds/logo-black-friday.png'); */
 height: 150px;
 }
 
@@ -50,7 +50,7 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
-	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/Pablo3.png?raw=true');
+	background-image: url('/img/pabloka1.png');
 
 
 	
@@ -260,12 +260,12 @@ body{
 	margin-top: 400px;
 }
 
-#sign{
+/* #sign{
 	background-image: url('../img/backgrounds/logo-black-friday.png');
 	background-size: 200px;
 	width: 200px;
 	height: 100px;
-}
+} */
 
 }
 @media (max-width: 480px) {
@@ -285,7 +285,7 @@ body{
 }
 
 body{	margin-top: 100px;
-	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/MOBILE.png?raw=true');
+	background-image: url('/img/pabloka2.png');
 }
 #sign{	
 	
