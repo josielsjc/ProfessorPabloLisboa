@@ -285,8 +285,15 @@ body{
 }
 
 body{	margin-top: 100px;
-	background-image: url('/img/pabloka2.png');
+	margin-left: 10px;
+	background-image: url('/img/Sem\ título.png');
 }
+
+body > img{	margin-top: 100px;
+
+	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/pabloka2.png?raw=true');
+}
+
 #sign{	
 	
 display: none;
