@@ -24,9 +24,9 @@ margin-bottom: 140px;
 	
 }
   #sign{
-	margin-top: 10%;
-	/* background-image: url('../img/backgrounds/logo-black-friday.png'); */
-height: 150px;
+display: hidden;
+display: none;
+
 }
 
 
@@ -50,7 +50,7 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
-	background-image: url('/img/pabloka00.png');
+	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/pabloka00.png?raw=true');
 
 
 	
@@ -236,40 +236,29 @@ ul.navbar-nav {
 
 /***** Media queries *****/
 
-@media (min-width: 992px) and (max-width: 1199px) {}
 
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) {
 
-@media (max-width: 767px) {
-	
-	.navbar { padding-top: 0; }
-	.navbar.navbar-no-bg { background: #333; background: rgba(51, 51, 51, 0.9); }
-	.navbar-brand { height: 60px; margin-left: 15px; }
-	.navbar-collapse { border: 0; }
-	.navbar-toggle { margin-top: 12px; }
-	
-	.inner-bg { padding: 60px 0 110px 0; }
-	.top-content .text { padding-top: 0; padding-bottom: 60px; }
-	.top-content .top-big-link { margin-top: 25px; }
-	.top-content .top-big-link a.btn { margin-top: 10px; }
+	body{	margin-left: 200px;
+max-width: 10px;
+		background-image: url('/img/panloka00mobile.png');
+		background-repeat: no-repeat;
+	}
 
+	#black{
+margin-top:200px;
+background-color: none;
+opacity: 100%;
+	}
 }
 
-@media (max-width: 557px) {
-body{
-	margin-top: 400px;
-}
 
-/* #sign{
-	background-image: url('../img/backgrounds/logo-black-friday.png');
-	background-size: 200px;
-	width: 200px;
-	height: 100px;
-} */
-
-}
 @media (max-width: 480px) {
-	
+	body{	margin-left: 200px;
+		max-width: 10px;
+				background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/panloka00mobile.png?raw=true');
+				background-repeat: no-repeat;
+			}
 	h1, h2 { font-size: 32px; }
 
 
@@ -284,13 +273,26 @@ body{
 	margin-top:  -100px;
 }
 
-body{	margin-top: 100px;
-	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/panloka00mobile.png?raw=true');
-}
+
 #sign{	
 	
 display: none;
 }
+
+body{	margin-left: 200px;
+
+	background-image: url('https://github.com/josielsjc/ProfessorPabloLisboa/blob/main/img/panloka00mobile.png?raw=true');
+	background-repeat: no-repeat;
+
+
+}
+
+#black{
+margin-top:200px;
+background-color: none;
+opacity: 100%;
+}
+
 }
 /* Retina-ize images/icons */
 
